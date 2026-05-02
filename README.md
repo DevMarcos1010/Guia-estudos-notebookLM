@@ -8,12 +8,12 @@ Para me ajudar com isso, criei um notebookLM que me ajudasse que essa tarefa, o 
 * O Investidor Inteligente - GRAHAM, Benjamin. _Disponível em [PDF](https://github.com/DevMarcos1010/Guia-estudos-notebookLM/blob/main/o_investidor_inteligente_-_benjamin_grahamm.pdf)_
 * O Jeito Peter Lynch de Investir - LYNCH, Peter. _Disponível no [Youtube](https://youtu.be/PVwir8lxoy0?si=T1ZvYoIsXr_MwPA2)_
 * The Dhandho Investor - PABRAI, Mohnish. _Disponível no [Youtube](https://youtu.be/xs__7rW7TCw?si=a8cPmvGnOPOUtMqo)_
-* O Primo Rico. _Disponível no [Youtube](https://youtube.com/@primorico)
-* Clube do Valor. _Disponível no [Youtube](https://youtube.com/@ClubedoValor)
+* O Primo Rico. _Disponível no [Youtube](https://youtube.com/@primorico)_
+* Clube do Valor. _Disponível no [Youtube](https://youtube.com/@ClubedoValor)_
 
 ## Desenvolvimento do projeto
 
-Ao reunir as fontes preliminares para iniciar os testes do Ben, pedí-lo para antes verificar se ele poderia alcançar todos os sites, arquivos e vídeos anexados e, em seguida, me respondesse o status e fizesse um resumo de uma linha sobre o conteúdo. A ideia inicial era que o notebookLM conseguisse os índices de qualquer ação de maneira automatizada, porém o site que geralmente uso para consultar estes índices não estava permitindo o acesso do Ben, então tive que encontrar outro site que realizasse esta mesma função para substituir o anterior. Entretanto, o substituto acabou sendo mais limitado e optou-se, então, pela entrada manual das informações sobre as ações, via planilha exportada diretamente no notebookLM pelo usuário.
+Ao reunir as fontes preliminares para iniciar os testes do Ben, pedí-lo para antes verificar se ele poderia alcançar todos os sites, arquivos e vídeos anexados e, em seguida, me respondesse o status e fizesse um resumo de uma linha sobre o conteúdo. A ideia inicial era que o notebookLM conseguisse os índices de qualquer ação de maneira automatizada, porém o site que geralmente uso para consultar estes índices não estava permitindo o acesso do Ben, então tive que encontrar um outro que realizasse esta mesma função para substituir o anterior. Entretanto, o substituto acabou sendo mais limitado e optou-se, então, pela entrada manual das informações sobre as ações, via planilha exportada diretamente no notebookLM pelo usuário.
 
 ```
 INPUT :
@@ -91,8 +91,16 @@ As fontes listam ativos com finais semelhantes, como BPAC11 (BTG Pactual), SANB1
 
 
 ```
+Com o aspecto da coleta e exibição de informações aprovado com ressalvas, configurei a persona do Ben para que ele pudesse, também, fazer análises de mercado como panoramas sobre situações geo-políticas e econômicas nacionais e internacionais, por meio da leitura de notícias sobre economia, política e investimentos dos principais veículos de imprensa como o G1, o InfoMoney, o Money Times e o Valor Econômico. Segue abaixo o prompt utilizado para garantir que o Ben utilize essas informações, ponderando sua relevânica e restringindo sua influência nas escolhas de ações, o foco é separar a análise fudamentalista da análise do mercado, entregando o poder de decisão para o usuário por meio da exibição das informações de maneira isolada, cabendo ao investidor relacionar as duas análises e tomar a melhor decisão.
+
+```
+INPUT:
+
+Para análises de investimentos, o foco principal repousa sobre as técnicas de investimento e análise qualitativa e quantitativa das ações, as notícias servem para contextualização e uma tendência de direcionamento do mercado.
+Para análises de mercado, o foco principal é o inverso, onde o panorama delineado pelas notícias dá informações importantes sobre os impactos de acontecimentos globais e regionais para o mercado financeiro.
 
 
+```
 
 
 
